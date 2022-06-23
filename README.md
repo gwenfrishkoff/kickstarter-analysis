@@ -1,13 +1,13 @@
 # An Excel-Based Analysis of Kickstarter Campaigns
 
 ## Overview of Project
-Our client, Louise, has provided a set of data (***kickstarter_challenge.xlsx***) on kickstarter (crowd-funded) campaigns across a range of industries (e.g., music, theater, technology, games), countries (e.g., United States, Great Britain), and time periods, which can be summarized by quarterly and monthly launch dates. Louise has two broad aims:
+Our client, Louise, has provided a set of data (***kickstarter_challenge.xlsx***) on kickstarter (crowd-funded) campaigns across a range of industries (e.g., music, theater, technology, games), countries (e.g., United States, Great Britain), and time periods, which can be summarized by quarterly and monthly launch dates. Her primary (immediate) aim is to conduct a successful crowd-funded campaign to finance a play in the United States (U.S.). Louise has two questions that she would like this analysis to address.
 	<ol>
-	<li> Her primary (immediate) aim is to conduct a successful crowd-funded campaign to finance a play in the United States (U.S.).
-	<li> A secondary (future) aim is to finance a musical production in Great Britain (G.B.).
+	<li> The first question is to how campaign outcomes are affected by launch date: for example, are campaigns to fund theater projects generally more successful if they are launched in the 2nd quarter (May or June) or in the 4th quarter (November or December)?
+	<li> The second question is to how campaign outcomes are affected by the magnitude of the fundraising goal: Are donors more inclined to give to campaigns that have higher or lower target outcomes?
 	</ol>
 ### Purpose
-To support our client aims, we conduct a series of analyses to identify factors make for a successful crowd-funding campaign, with a focus on factors leading to successful past campaigns in similar markets (i.e., theater in the U.S. and musicals in G.B.). 
+To support our client aims, we conduct a series of analyses to identify factors make for a successful crowd-funding campaign, with a focus on factors leading to successful past campaigns in the target market (fundraising for theater projects). 
 
 ## Analysis and Challenges
 To analyze these data, we use MS Excel to organize, sort, analyze, and interpret the kickstarter data to reveal trends that can inform Louise's crowd-funding campaign.
@@ -61,5 +61,7 @@ Analysis results are summarized in the figure ***Outcomes_vs_Goals.png***.
 
 
 - What are some limitations of this dataset?
+The dataset was relatively clean. There were some minor issues with readability (e.g., data formats) and organization (e.g., hierarchical data stored in a single column). These issues were easily addressed using MS Excel formulas and methods.
 
 - What are some other possible tables and/or graphs that we could create?
+Given Louise's interest in a future campaign to finance a musical production in Great Britain (G.B.), it might be interesting to summarize and plot the outcomes for different subcategories of theater-related campaigns (e.g., musicals vs. plays). 
